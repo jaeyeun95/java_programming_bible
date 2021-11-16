@@ -2,7 +2,6 @@ package chapter14.etcstream;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
-import java.util.RandomAccess;
 
 public class RandomAccessFileEx {
     public static void main(String[] args) {
