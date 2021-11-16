@@ -9,11 +9,11 @@ public class BufferedInputStreamEx {
         FileInputStream fis = null;
         BufferedInputStream bis = null;
         try {
-            fis = new FileInputStream("c:\\Test\\bufferIn.txt"); 
+            fis = new FileInputStream("D:\\test\\bufferIn.txt"); 
             bis = new BufferedInputStream(fis);
             int readbyte = 0;
             while( (readbyte = bis.read()) != -1){
-                System.out.println((char)readbyte);
+                System.out.print((char)readbyte);
             }
         } catch (IOException ioe) {
             ioe.printStackTrace();
